@@ -1,0 +1,93 @@
+body{
+    background:wheat;/*Mmmm thinks a sheep*/
+}
+.arena{
+    height:29em;
+    display:flex;
+    /*the start of all that comes after*/
+    background:grey;
+    width:118em;
+    justify-content:center;
+}
+.arena > div{
+    flex:1;/*tape*/
+    margin:3em;
+    flex-wrap:wrap;
+    display:flex;
+    /*Makes image in the middle*/
+    justify-content:center;
+    transition-duration:3s;
+    /*makes transition a little smoother*/
+}
+img{
+height:100%;
+}
+.arena > div:hover{
+    flex:4;
+    justify-content:end;
+}
+/*animates the fight when you hover over it*/
+#topright{transform:rotate(180deg);}
+#topleft{transform:rotate(90deg);}
+#bottomright{transform:rotate(180deg)}
+/*Makes all the lightsabers face eachother*/
+#cont{
+    display:flex;
+    justify-content:center;
+    /*centers everything*/
+    align-items:center;
+    background:aqua;
+    margin-top:5em;
+}
+#cont>div{
+    margin:1em;
+    height:13em;
+    background:azure;
+    border-radius:0.2em;
+    display:flex;
+    /*centers text*/
+    align-items:center;
+    width:67em;
+    justify-content:center;
+    flex-direction:row-reverse;
+}
+#cont2{
+    display:flex;
+    justify-content:center;
+    /*centers everything*/
+    align-items:center;
+    background:yellowgreen;
+    margin-top:5em;
+}
+#cont2>div{
+    margin:1em;
+    height:13em;
+    background:lime;
+    border-radius:0.2em;
+    display:flex;
+    /*centers text*/
+    align-items:center;
+    width:67em;
+    justify-content:center;
+}
+#cont3{
+    display:flex;
+    justify-content:center;
+    /*centers everything*/
+    align-items:center;
+    background:maroon;
+    margin-top:5em;
+    flex-direction:column
+    /*new different direction*/
+}
+#cont3>div{
+    margin:1em;
+    height:13em;
+    background:darkgrey;
+    border-radius:0.2em;
+    display:flex;
+    /*centers text*/
+    align-items:center;
+    width:67em;
+    justify-content:center;
+}
