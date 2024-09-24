@@ -22,6 +22,12 @@ body{
 img{
 height:100%;
 }
+/*#bottomright:hover{
+    align-self:flex-start!important;
+}
+#topright:hover{
+    align-self:flex-start!important;
+}*/
 .arena > div:hover{
     flex:4;
     justify-content:end;
@@ -69,6 +75,13 @@ height:100%;
     align-items:center;
     width:67em;
     justify-content:center;
+}
+a:active{
+    color:maroon;
+}
+#cont2>div:hover{
+background:pink;
+color:blue;
 }
 #cont3{
     display:flex;
